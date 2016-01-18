@@ -25,3 +25,6 @@ a script upload file to qiniu cloud storage.
 
    `alohomora file_name`
 
+## LICENSE
+
+[WTFPL](https://en.wikipedia.org/wiki/WTFPL)
