@@ -1,9 +1,10 @@
 # Alohomora
 
 A spell in Harry Potter world.
-Used to open and/or unlock doors,but doors can be bewitched so that this spell has no effect.
 
-a script upload file to qiniu cloud storage.
+Used to open and/or unlock doors, but doors can be bewitched so that this spell has no effect.
+
+A script upload file to qiniu cloud storage.
 
 ## USAGE
 
