@@ -1,3 +1,5 @@
+#!/bin/bash
+
 scope=$(printenv QINIU_BUCKET)
 accesskey=$(printenv QINIU_ACCESS)
 secretkey=$(printenv QINIU_SECRET)
