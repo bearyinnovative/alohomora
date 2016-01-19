@@ -8,7 +8,7 @@ deadline=$(echo `date +%s` + 3600| bc )
 
 putPolicy="{\"scope\":\"$scope\",\"deadline\":$deadline}"
 
-encodedPutPolicy=`echo -n "$putPolicy" | base64 -w0 | sed 's/\+/-/g; s/\//_/g'`
+encodedPutPolicy=`echo -n "$putPolicy" | base64 | sed 's/\+/-/g; s/\//_/g'`
 
 sign=`echo -n "$encodedPutPolicy" | openssl sha1 -hmac "$secretkey" | awk '{print $2}' | xxd -r -p`
 echo $2
